@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
@@ -17,12 +16,14 @@
             box-sizing: border-box;
         }
         h2{
-            font-family: 'Big Shoulders Display', cursive;        }
+            font-family: 'Big Shoulders Display', cursive;        
+        }
         main{
-            display: flex;
-            flex-direction: row;
-            max-width: 100vh; 
-            margin: 20px auto;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+            max-width: 100vh;
+            margin: auto;
             border: none;
             border-radius: 5px;
             overflow: hidden;
@@ -110,5 +111,6 @@
             <button class="card-button-darkcyan">Learn More</button>
         </section>
     </main>
+
 </body>
 </html>
